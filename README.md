@@ -1,2 +1,1 @@
-# projektmunka1
-Ezt bővíteni kell
+# Film és Játék ajánló
