@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 
 p {
-    background-color: black;
+    background-color: white;
     color: lightgray;
     border: 1px solid black;
     margin: 0 auto;
@@ -10,7 +10,7 @@ p {
     /* text-align: justify; */
 }
 iframe{
-    background-color: black;
+    background-color: white;
     color: lightgray;
     border: 1px solid black;
     margin: 0 auto;
@@ -23,7 +23,7 @@ th {
 }
 table {
     width: 90%;
-    background-color: black;
+    background-color: white;
     color: lightgray;
     border: 1px solid black;
     margin: 0 auto;
@@ -40,7 +40,7 @@ tr {
 ol {
     padding: 20px 50px;
     width: 90%;
-    background-color: black;
+    background-color: white;
     color: lightgray;
     border: 1px solid black;
     margin: 0 auto;
@@ -53,9 +53,9 @@ ol {
 }
 
 #cim {
-    background-color: black;
+    background-color: white;
     color: red;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 10px;
     margin: 0 auto;
     width: 95%;
@@ -63,7 +63,7 @@ ol {
 }
 
 h2 {
-    background-color: black;
+    background-color: white;
     color: orangered;
     border: 1px solid black;
     padding: 10px;
@@ -99,7 +99,7 @@ a:hover {
 }
 
 #navbar {
-    background-color: black;
+    background-color: white;
     padding: 10px 10px;
     margin: 0 auto;
     text-align: center;
@@ -107,7 +107,7 @@ a:hover {
 }
 
 body {
-    background-color: black;
+    background-color: white;
     font-family: 'Nova Mono', monospace;
     font-size: 20px;
 }
