@@ -146,8 +146,7 @@ body {
  footer{
     margin: auto;
     border-top: 1px solid yellow;
-    width: 60%;
+    width: 99%;
     clear: both;
-    position: fixed;
     bottom: 1px;
 }
