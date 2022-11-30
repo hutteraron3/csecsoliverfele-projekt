@@ -2,7 +2,7 @@
 
 p {
     background-color: white;
-    color: lightgray;
+    color: black;
     border: 1px solid black;
     margin: 0 auto;
     padding: 20px 10px;
@@ -11,7 +11,7 @@ p {
 }
 iframe{
     background-color: white;
-    color: lightgray;
+    color: black;
     border: 1px solid black;
     margin: 0 auto;
     /* padding: 20px 10px; */
@@ -24,7 +24,7 @@ th {
 table {
     width: 90%;
     background-color: white;
-    color: lightgray;
+    color: black;
     border: 1px solid black;
     margin: 0 auto;
     padding: 0px 10px;
@@ -41,7 +41,7 @@ ol {
     padding: 20px 50px;
     width: 90%;
     background-color: white;
-    color: lightgray;
+    color: black;
     border: 1px solid black;
     margin: 0 auto;
     width: 90%;
@@ -81,7 +81,7 @@ a:hover {
 }
 
 .button {
-    color: lightgray;
+    color: black;
     text-align: center;
     font-size: 25px;
     padding: 2px;
