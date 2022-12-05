@@ -124,6 +124,8 @@ body {
 #logo {
     width: 5rem;
 	margin-right: 5px;
+    vertical-align:middle;
+
 }
 #logo:hover{
 	transform: rotate(-360deg);
