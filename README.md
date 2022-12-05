@@ -1,2 +1,2 @@
 # Film, Könyv és Játék ajánló
-*Célunk a weboldallal, hogy szórakozási lehetőség ajánljunk embereknek kategóriák/kedvelésük alapján.*
+*Célunk a weboldallal, hogy szórakozási lehetőségeket ajánljunk embereknek kategóriák/kedvelésük alapján.*
