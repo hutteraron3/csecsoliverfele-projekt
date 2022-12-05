@@ -1,5 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body {
+    background-color: black;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+}
+img {
+    border: 2px solid yellow;
+}
 p {
     background-color: black;
     color: white;
@@ -115,17 +123,14 @@ a:hover {
     width: 95%;
 }
 
-body {
-    background-color: black;
-    font-family: 'Architects Daughter', cursive;
-    font-size: 20px;
-}
 
 #logo {
     width: 5rem;
 	margin-right: 5px;
     vertical-align:middle;
-
+    text-align: center;
+    margin: 0 auto;
+    border: hidden;
 }
 #logo:hover{
 	transform: rotate(-360deg);
