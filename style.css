@@ -4,6 +4,9 @@ body {
     background-color: black;
     font-family: 'Varela Round', sans-serif;
     font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 img {
     border: 2px solid yellow;
@@ -12,16 +15,16 @@ p {
     background-color: black;
     color: white;
     border: 1px solid black;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 20px 10px;
-    width: 95%;
+    /* width: 95%; */
     /* text-align: justify; */
 }
 iframe{
     background-color: black;
     color: yellow;
     border: 1px solid black;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* padding: 20px 10px; */
     width: 95%;
 }
@@ -30,13 +33,13 @@ th {
 	color: cyan;
 }
 table {
-    width: 90%;
+    /* width: 90%; */
     background-color: black;
     color: yellow;
     border: 1px solid black;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 0px 10px;
-    width: 90%;
+    
     table-layout: fixed;
     vertical-align: top;
     
@@ -46,24 +49,38 @@ tr {
 	
 }
 .szereplok{
-    float: right;
-    width: 40%;
-
+    /* float: right;
+    width: 30%; */
+}
+.main{
+    display: flex;
+    flex-direction: row;
 }
 .tartalom{
-    width: 60%;
-    float: left;
+    /* width: 60%;
+    float: left; */
 }
-ol {
+ol,ul {
     padding: 20px 50px;
-    width: 90%;
+    
     background-color: black;
     color: white;
     border: 1px solid black;
-    margin: 0 auto;
-    width: 90%;
+    /* margin: 0 auto; */
+    /* width: 90%; */
+    
 }
-
+ul{
+    list-style: none; /* Remove default bullets */
+}
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: white; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
 #banner {
     width: 24rem;
 
@@ -74,7 +91,7 @@ ol {
     color: deepskyblue;
     border: 1px solid black;
     padding: 10px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     width: 95%;
     text-align: center;
 }
@@ -84,7 +101,7 @@ h2 {
     color: green;
     border: 1px solid black;
     padding: 10px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     width: 95%;
 }
 
@@ -118,9 +135,12 @@ a:hover {
 #navbar {
     background-color: black;
     padding: 10px 10px;
-    margin: 0 auto;
-    text-align: center;
-    width: 95%;
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    width: 90%;
+    font-size: 2rem;
 }
 
 
@@ -129,7 +149,7 @@ a:hover {
 	margin-right: 5px;
     vertical-align:middle;
     text-align: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     border: hidden;
 }
 #logo:hover{
@@ -151,7 +171,7 @@ a:hover {
     margin: 20px;
 }
  footer{
-    margin: auto;
+    /* margin: auto; */
     border-top: 1px solid yellow;
     width: 99%;
     clear: both;
