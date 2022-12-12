@@ -4,9 +4,10 @@ body {
     background-color: black;
     font-family: 'Varela Round', sans-serif;
     font-size: 20px;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: column; */
 }
 img {
     border: 2px solid yellow;
@@ -141,6 +142,7 @@ a:hover {
     /* margin: 0 auto; */
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     gap: 40px;
     width: 90%;
     font-size: 2rem;
@@ -179,4 +181,12 @@ a:hover {
     width: 99%;
     clear: both;
     bottom: 1px;
+}
+
+header{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
