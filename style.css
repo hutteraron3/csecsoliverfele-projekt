@@ -30,6 +30,9 @@ iframe{
     /* width: 95%;
     height: fit-content; */
 }
+.nav_es_egyebek{
+    width: 95%;
+}
 th {
 	font-weight: bolder;
 	color: cyan;
