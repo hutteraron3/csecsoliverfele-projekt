@@ -33,7 +33,8 @@ iframe{
 }
 .nav_es_egyebek{
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
+    height: 150px;
 }
 th {
 	font-weight: bolder;
