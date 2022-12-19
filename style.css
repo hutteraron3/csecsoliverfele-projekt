@@ -17,7 +17,7 @@ img {
     border: 2px solid yellow;
 }
 p {
-    background-color:#001220;
+    background-color:transparent;
     color: white;
     /* margin: 0 auto; */
     padding: 10px;
@@ -35,8 +35,7 @@ iframe{
 }
 .nav_es_egyebek{
     width: 100%;
-    margin: 0 auto;
-    height: 150px;
+    margin: auto;
 }
 th {
 	font-weight: bolder;
